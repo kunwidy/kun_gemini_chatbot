@@ -38,7 +38,7 @@ app.post('/api/chat', async (req, res) => {
       contents,
       config: {
         temperature: 0.9,
-        systemInstructions: 'You are a helpful assistant.',
+        systemInstructions: 'Jawab akurat untuk topik desain grafis, UI/UX, dan teknologi terkait. Jika tidak tahu jawabannya, katakan saja tidak tahu.',
       },
     });
 
